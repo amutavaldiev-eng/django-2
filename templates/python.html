@@ -1,0 +1,36 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Python</title>
+    <link rel="stylesheet" href="{% static 'pyhon.css' %}">
+</head>
+<body>
+
+    <div class="box">
+        <h1>{{name}}</h1>
+
+        <h2>About Python</h2>
+
+        <p>
+            Python is a popular programming language.
+            It was created by {{creator}}.
+        </p>
+
+        <h2>Year</h2>
+        <p>Python was created in {{year}}.</p>
+
+        <h2>Advantages</h2>
+        <p>Easy to learn and easy to use.</p>
+
+        <h2>Where is Python used?</h2>
+        <p>Web development, AI, games and data science.</p>
+
+        <a href="http://127.0.0.1:8000/ragister">Back to Register</a>
+        <a  href="http://127.0.0.1:8000/c">Next</a>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Java</title>
+    <link rel="stylesheet" href="{% static 'pyhon.css' %}">
+</head>
+<body>
+
+    <div class="box">
+        <h1>{{name}}</h1>
+
+        <h2>About Java</h2>
+
+        <p>
+            Java is a popular programming language.
+            It was created by {{creator}}
+        </p>
+
+        <h2>Year</h2>
+        <p>Java was released in {{year}}.</p>
+
+        <h2>Advantages</h2>
+        <p>Java is powerful, secure and easy to use.</p>
+
+        <h2>Where is Java used?</h2>
+        <p>Android apps, websites and computer programs.</p>
+
+        <a href="http://127.0.0.1:8000/c++">Back</a>
+        <a href="http://127.0.0.1:8000/end">Next</a>
+    </div>
+
+</body>
+</html>

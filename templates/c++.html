@@ -1,0 +1,32 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>C++ Language</title>
+    <link rel="stylesheet" href="{% static 'pyhon.css' %}">
+</head>
+<body>
+
+    <div class="box">
+        <h1>{{name}}</h1>
+
+        <h2>About C++</h2>
+        <p>C++ is a programming language created by {{creator}}.</p>
+
+        <h2>Year</h2>
+        <p>C++ was created in {{year}}.</p>
+
+        <h2>Advantages</h2>
+        <p>Fast, powerful and supports object-oriented programming.</p>
+
+        <h2>Where is C++ used?</h2>
+        <p>Games, applications and software development.</p>
+
+        <a href="http://127.0.0.1:8000/c">Back</a>
+        <a href="http://127.0.0.1:8000/java">Next</a>
+    </div>
+
+</body>
+</html> 
